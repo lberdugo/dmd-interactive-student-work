@@ -1,0 +1,120 @@
+/************
+SPOTLIGHT P5.JS CREDIT (tabi2): 
+- Title: spotlight example from stream
+- Author: Cooper Nelson (CoopTroop23)
+- Date: 4.23.2023
+- Link: https://editor.p5js.org/CoopTroop23/sketches/jJVsLqWPw
+***********/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0;
+  background-color: black;
+  color: #46727c;
+}
+
+.center {
+  margin: 250 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  z-index: -1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "arboria", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "arboria", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: #46727c;
+}
+
+#title {
+  position: fixed;
+  left: 50%;
+  top: 250px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#describe {
+  position: fixed;
+  left: 50%;
+  top: 375px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  z-index: 1;
+  text-align: center;
+}
+
+a {
+  font-family: "arboria", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #46727c;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #959948;
+}
+
+#tree {
+  animation-name: treeAnimate;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+#reset {
+  position: fixed;
+  left: 5%;
+  top: 80px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+img {
+  z-index: -1;
+}
+
+/* ANIMATIONS */
+@keyframes treeAnimate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translatex(30px);
+  }
+}

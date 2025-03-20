@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    background-color: #4036C3;
+}
+
+ 
+@font-face {
+    font-family: "CustomFont";
+    src: url("css/bolton.ttf");
+}
+
+
+
+div {
+    font-family: myFirstFont;
+}
+canvas{
+    display: block;
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+h2{
+    color:rgb(238, 51, 31);
+    font-size: 100px;
+    position: fixed;
+    left: 50%;
+    bottom: 250px;
+    transform: translate(-50%,-50%);
+    font-family: CustomFont;
+}
+
+
+h3{
+    color:rgb(238, 51, 31);
+    font-size: 40px;
+    position: fixed;
+    left: 90%;
+    bottom: 20px;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    font-family: CustomFont;
+}
+
+a, a:link{
+    color:rgb(238, 51, 31);
+    /* text-align: right; */
+    text-decoration-line: none;
+}
+
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    margin: auto;
+    width: 50%;
+    text-align:justify;
+}
+
+
+#homepage{
+padding: 0%;
+}
+
+

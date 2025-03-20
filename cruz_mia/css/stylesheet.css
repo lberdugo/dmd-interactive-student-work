@@ -1,0 +1,66 @@
+@font-face {
+    font-family: karatula;
+    src: url("../LL-KARATULA-020721.otf") format("opentype");
+}
+
+@font-face{
+    font-family: bantayog;
+    src: url("../Bantayog-Semilight.otf") format("opentype");
+}
+
+html{
+    cursor: url("../img/cursor.png"), auto;
+}
+
+body{
+    max-width: 1120px;
+    margin: 250px auto;
+    background-color: #E1E6EE;
+}
+
+h1{
+   font-family: 'karatula', serif;
+    font-size: 60px;
+    color: #BB543D;
+    line-height: 70px;
+}
+
+h2, p, a{
+    font-family: 'bantayog', sans-serif;
+}
+
+h2{
+    font-size: 28px;
+    color: #5F7EB7;
+}
+
+p{
+    font-size: 24px;
+    color: #5F7EB7;
+    line-height: 30px;
+}
+
+a, a:active, a:visited {
+    color: #DBB261;
+    font-size: 24px;
+}
+
+a:hover{
+    color: #b38e46;
+    text-decoration: underline;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    margin: 35px auto auto auto;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+}

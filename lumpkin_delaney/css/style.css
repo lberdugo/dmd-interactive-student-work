@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 100%
+}
+
+ h1{
+    font-family:'Playfair Display';
+    color: #D92322;
+    font-size: 200px;
+    text-align: center;
+}
+
+h2, a{
+    font-family:'Playfair Display';
+    color: #F28686;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3{
+    font-family:'Playfair Display';
+    font-size: 12pt;
+    text-align: center;
+    color: #D92322;
+}
+
+a:hover, a:active{   
+    size-adjust: 200%;
+}
+
+body{
+    background-color: #E6DED4;
+    margin: auto;
+    padding: 0;
+ }
+
+.top{
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+}
+
+.right_arrow{
+    padding-left: 1265px;
+}
+
+
+
+.imageBox {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 50px;
+    position: relative;
+    float: left;
+}
+
+.imageBox1 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+    position: relative;
+    float: left;
+}
+  
+.imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+  
+.imageBox:hover .hoverImg {
+    display: flex;
+    background-color: #E6DED4;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
+
+button:hover{
+    transform: scale(110%);
+}
+  
